@@ -5338,21 +5338,21 @@ extern "C" {
 extern "C" {
     pub fn LoadImage(fileName: *const ::std::os::raw::c_char) -> Image;
 }
-extern "C" {
-    pub fn LoadImageEx(
-        pixels: *mut Color,
-        width: ::std::os::raw::c_int,
-        height: ::std::os::raw::c_int,
-    ) -> Image;
-}
-extern "C" {
-    pub fn LoadImagePro(
-        data: *mut ::std::os::raw::c_void,
-        width: ::std::os::raw::c_int,
-        height: ::std::os::raw::c_int,
-        format: ::std::os::raw::c_int,
-    ) -> Image;
-}
+// extern "C" {
+//     pub fn LoadImageEx(
+//         pixels: *mut Color,
+//         width: ::std::os::raw::c_int,
+//         height: ::std::os::raw::c_int,
+//     ) -> Image;
+// }
+// extern "C" {
+//     pub fn LoadImagePro(
+//         data: *mut ::std::os::raw::c_void,
+//         width: ::std::os::raw::c_int,
+//         height: ::std::os::raw::c_int,
+//         format: ::std::os::raw::c_int,
+//     ) -> Image;
+// }
 extern "C" {
     pub fn LoadImageRaw(
         fileName: *const ::std::os::raw::c_char,
